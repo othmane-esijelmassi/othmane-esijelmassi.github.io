@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Empirical economics research and projects by Othmane Esijelmassi.">
+  <meta name="description" content="Research experience and selected projects by Othmane Esijelmassi.">
   <meta name="author" content="Othmane Esijelmassi">
-  <title>Research | Othmane Esijelmassi</title>
+  <title>Research Experience &amp; Selected Projects | Othmane Esijelmassi</title>
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
@@ -13,51 +13,86 @@
     <div class="shell header-inner">
       <a class="brand" href="index.html">Othmane Esijelmassi</a>
       <nav class="site-nav" aria-label="Main navigation">
-          <a href="index.html">About</a>
-          <a href="research.html" aria-current="page">Research</a>
-          <a href="cv.html">CV</a>
+        <a href="index.html">Home</a>
+        <a href="cv.html">CV</a>
+        <a href="research.html" aria-current="page">Research</a>
       </nav>
     </div>
   </header>
   <main id="main" class="shell">
     <div class="page-heading">
-      <div class="eyebrow">Academic work</div>
-      <h1>Research</h1>
-      <p class="text-muted">Empirical research projects and selected academic paper reviews.</p>
+      <h1>Research Experience &amp; Selected Projects</h1>
     </div>
-    <section class="section" aria-labelledby="independent-heading">
-      <h2 id="independent-heading">Research Projects</h2>
-      <p class="metadata">Independent research</p>
-      <article class="article">
-        <h3>Empirical Reanalysis of Crépon et al. (2015): Microcredit in Rural Morocco <span class="status">In progress</span></h3>
-        <div class="metadata">Empirical reanalysis · R / R Markdown</div>
-        <p>Reconstruction of an analytical sample and comparison of regression-based estimates and randomization inference. This is a reanalysis, not an exact replication of the original article.</p>
-        <p class="note">Code, report, and replication instructions will be linked here once the analysis has been checked.</p>
-      </article>
+
+    <section class="research-project" aria-labelledby="grants-heading">
+      <div class="research-project-heading">
+        <h2 id="grants-heading">Research Grants and Academic Productivity (GDN–OpenAlex)</h2>
+        <span class="research-year">2026</span>
+      </div>
+      <p class="research-subtitle">Collaborative Research Project | Supervised by Prof. Jean-Louis Arcand</p>
+      <ul>
+        <li>Contributed to constructing a researcher-level panel by linking GDN administrative records with OpenAlex publication and citation data, assessing matching quality using names and institutional affiliations.</li>
+        <li>Examined research productivity using researcher and year fixed effects and event-study specifications; identified data limitations and the absence of a credible comparison group as obstacles to causal identification.</li>
+      </ul>
+      <p class="project-links"><a href="assets/research/gdn-openalex-methodological-note.pdf" target="_blank" rel="noopener noreferrer">View independently authored methodological note (PDF)</a></p>
     </section>
-    <section class="section" aria-labelledby="collaborative-heading">
-      <h2 id="collaborative-heading">Collaborative Research</h2>
-      <p class="text-muted">A collaborative project on research grants and academic productivity is under methodological review. Public details will be added after verification and any necessary authorization.</p>
-    </section>
-    <section class="section" aria-labelledby="reading-heading" id="reading-notes">
-      <h2 id="reading-heading">Academic Reading &amp; Paper Reviews</h2>
-      <p class="text-muted">Selected academic paper discussions, distinct from original research projects.</p>
-      <div class="article-list">
-        <article class="article">
-          <h3>Golosov et al. (2014) — <em>Optimal Taxes on Fossil Fuel in General Equilibrium</em> <span class="status">Course presentation</span></h3>
-          <p>Group presentation on optimal carbon taxation in a dynamic general equilibrium setting. Supporting material may be added after review.</p>
-        </article>
-        <article class="article">
-          <h3>Gabaix (2019) — <em>Behavioral Inattention</em> <span class="status">Notes in progress</span></h3>
-          <p>Ongoing analysis of bounded rationality, sparse attention, and economic decision-making.</p>
-        </article>
+
+    <section class="research-project" aria-labelledby="replication-heading">
+      <div class="research-project-heading">
+        <h2 id="replication-heading">Empirical Economics Replication Exercises</h2>
+        <span class="research-year">2026</span>
+      </div>
+      <p class="research-subtitle">AI-Assisted Replication Exercises | R, R Markdown</p>
+      <div class="replication-exercise">
+        <h3>Crépon et al. (2015) — Microcredit in Rural Morocco</h3>
+        <ul>
+          <li>Reproduced selected treatment-effect estimates using matched-pair fixed effects, OLS and IV specifications, and village-clustered standard errors; documented differences from published results.</li>
+        </ul>
+        <p class="project-links">
+          <a href="assets/research/crepon-replication-report.html" target="_blank" rel="noopener noreferrer">View Crépon report (HTML)</a>
+          <a href="assets/research/crepon-replication-source.Rmd" download>Download Crépon analysis (R Markdown)</a>
+        </p>
+      </div>
+      <div class="replication-exercise">
+        <h3>Karlan &amp; List (2007) — Matching Grants and Charitable Giving</h3>
+        <ul>
+          <li>Reproduced selected experimental results using Probit and OLS models to examine donation responses to matching grants and alternative matching ratios.</li>
+        </ul>
+        <p class="project-links">
+          <a href="assets/research/karlan-list-replication-report.html" target="_blank" rel="noopener noreferrer">View Karlan &amp; List report (HTML)</a>
+          <a href="assets/research/karlan-list-replication-source.Rmd" download>Download Karlan &amp; List analysis (R Markdown)</a>
+        </p>
       </div>
     </section>
+
+    <section class="research-project" aria-labelledby="stakes-heading">
+      <div class="research-project-heading">
+        <h2 id="stakes-heading">Do Higher Stakes Reduce Left-Digit Bias?</h2>
+        <span class="research-year">2026</span>
+      </div>
+      <p class="research-subtitle">Independent Research Proposal | Behavioral Economics</p>
+      <ul>
+        <li>Developed a proposal for an incentivized randomized-choice experiment to test whether higher financial stakes reduce left-digit bias; formulated competing hypotheses and examined causal identification and interpretation limitations.</li>
+      </ul>
+      <p class="project-links"><a href="assets/research/left-digit-bias-proposal.pdf" target="_blank" rel="noopener noreferrer">View research proposal draft (PDF)</a></p>
+    </section>
+
+    <section class="research-project" aria-labelledby="ai-essay-heading">
+      <div class="research-project-heading">
+        <h2 id="ai-essay-heading">The Future of Human Intelligence, Learning and Research in the Age of AI</h2>
+        <span class="research-year">2026</span>
+      </div>
+      <p class="research-subtitle">Independent Interdisciplinary Research Essay | AI, Human Capital &amp; Education</p>
+      <ul>
+        <li>Critically reviewed empirical studies on AI-assisted learning and cognitive engagement, examining the trade-offs between productivity gains, human capital development, and intellectual autonomy.</li>
+        <li>Explored how advances in AI could reshape scientific research, with particular attention to researchers' roles in formulating questions, evaluating evidence, and producing reliable knowledge.</li>
+      </ul>
+    </section>
+
   </main>
   <footer class="site-footer">
     <div class="shell footer-inner">
       <p>© 2026 Othmane Esijelmassi</p>
-      <p><a href="mailto:otm.esijelmassi@gmail.com">Email</a> · Mohammed VI Polytechnic University</p>
     </div>
   </footer>
 </body>
