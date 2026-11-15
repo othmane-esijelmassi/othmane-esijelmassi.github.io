@@ -57,7 +57,14 @@ p { margin: 0; }
 .home-section h2 { margin-bottom: 18px; }
 .home-section p + p { margin-top: 16px; }
 .home-section + .home-section { margin-top: 52px; }
-.cv-availability { margin-top: 24px; }
+.cv-actions { display: flex; flex-wrap: wrap; gap: 20px; margin-top: 24px; }
+.cv-preview {
+  display: block;
+  width: 100%;
+  height: 960px;
+  margin-top: 28px;
+  border: 1px solid var(--line);
+}
 .research-project { margin-top: 52px; }
 .research-project-heading {
   display: grid;
@@ -96,4 +103,5 @@ p { margin: 0; }
   .brand { white-space: normal; }
   .site-nav { gap: 20px; }
   .research-project-heading { gap: 12px; }
+  .cv-preview { height: 70vh; min-height: 420px; }
 }
